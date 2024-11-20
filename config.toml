@@ -4,13 +4,15 @@ title = "Shinyzenith"
 copyright = "BSD Zero Clause License"
 theme = "shinyzenith"
 pygmentsCodeFences = true
-paginate = 100
+
+[pagination]
+	pagerSize = 100
 
 [permalinks]
 	blog = "/blog/:year/:slug/"
 
-[author]
-	name = "Aakash Sen Sharma"
+[params]
+	author = "Aakash Sen Sharma"
 
 [taxonomies]
 	tag = "tags"
@@ -25,6 +27,7 @@ paginate = 100
 [outputFormats.RSS]
 	mediaType = "application/xml"
 	baseName = "rss"
+
 [outputFormats.Atom]
 	mediaType = "application/atom+xml"
 	baseName = "atom"

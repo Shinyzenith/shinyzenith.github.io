@@ -5,6 +5,7 @@
 		<title>{{ partial "title.txt" . }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="canonical" href="{{ .Permalink }}">
+        <link rel="icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
 
 		{{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
 
